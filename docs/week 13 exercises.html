@@ -28,6 +28,22 @@ table.second, th, td{
   border:1px solid black;}
 th.first, td.first{
   padding: 10px;}
+table.third {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.second, td.second {
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even){background-color: LightCyan}
+
+th.first {
+  background-color: #DEB887;
+  color: #FFF8DC;
+
 </style>
 </head>
 <body>
@@ -80,6 +96,23 @@ th.first, td.first{
     <td class=first>27</td>
     <td class=first>Lisa</td>
     <td class=first>85</td>
+  </tr>
+  </table></hr>
+<hr><table class=third>
+  <tr>
+    <th class=second>seat number</th>
+    <th class=second>name</th>
+    <th class=second>score</th>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Peter</td>
+    <td>95</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Lisa</td>
+    <td>85</td>
   </tr>
   </table></hr>
 </body>
