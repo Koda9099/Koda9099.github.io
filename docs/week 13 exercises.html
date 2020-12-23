@@ -16,11 +16,12 @@ li.first::before {
 ol.first{
   list-style-type: decimal;}
 ul.second{
-  list-style-image: url("images/rabbit.png");
-  height=10;
-  width=10;}
+  list-style-image: url("images/rabbit.png");}
 li.second{
-  margin: 10px 0px 0px 0px;}
+  margin: 5px 0px 0px 0px;}
+ol.second{
+  list-style-type: lower-roman;}
+  ol.second:hover {background-color: orange;} 
 </style>
 </head>
 <body>
@@ -39,5 +40,10 @@ li.second{
   <li class=second>cat</li>
   <li class=second>dolphin</li>
 </ul></hr>
+<hr><ol class=second>
+  <li>pig</li>
+  <li>dog</li>
+  <li>cat</li>
+</ol></hr>
 </body>
 </html>
