@@ -2,39 +2,31 @@
 <html>
 <head>
 <style>
-ul {
+ul.first {
   list-style: none;
 }
-
-li { 
+li.first { 
   padding-left: 10px; 
 }
-
-li::before {
+li.first::before {
   content: "•";
   padding-right: 5px;
   color: pink;
 }
+ol.first{
+  list-style-type: decimal;}
 </style>
 </head>
 <body>
-<ul>
+<ul class=first>
   <li>bear</li>
   <li>cat</li>
   <li>dolphin</li>
 </ul>
+<hr><ol class=first>
+  <li>dog</li>
+  <li>cat</li>
+  <li>dolphin</li>
+  </ol></hr>
 </body>
-<head>
-<style>
-   ol{
-     list-style-type: decimal;}
-</style>
- </head>
- <body>
-   <hr><ol>
-   <li>dog</li>
-   <li>cat</li>
-   <li>dolphin</li>
-   </ol></hr>
-  </body>
 </html>
