@@ -47,23 +47,26 @@ body {
 
 /* Create three equal columns that floats next to each other */
 /*  column */
-.column {   
+.column_1, .column_2, .column_3 {   
   float: left;
-  width: 32%;
+  width: 33%;
+}
+
+.column_1, .column_2 {   
+  margin-right: 0.5%;
 }
 
 /* image */
 img {
 width: 90%;
-margin: auto;
+margin-left: auto;
+margin-right: auto;
 }
 
 /* Add a card effect for articles */
 .card {
   background-color: white;
   padding: 20px;
-  margin: 0px;
-  margin-right: 1.3%;
   margin-top: 20px;
 }
 
@@ -109,35 +112,35 @@ margin: auto;
 </div>
 
 <div class="row">
-    <div class="card column">
+    <div class="card column_1">
       <h2>Yangmingshan</h2>
       <h5>Taipei</h5>
       <img src="images/陽明山.jpg">
 	
     </div>
-    <div class="card column">
+    <div class="card column_2">
       <h2>Snow mountain</h2>
       <h5>Yilan</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
-    <div class="card column">
+    <div class="card column_3">
       <h2>Xiuguluan Mountain</h2>
       <h5>Hualien</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
  </div>
  <div class="row">
-     <div class="card column">
+     <div class="card column_1">
       <h2>Hehuan Mountain</h2>
       <h5>In the border of Hualien and Nantou</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
-    <div class="card column">
+    <div class="card column_2">
       <h2>Jade mountain</h2>
       <h5>Nantou</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
-    <div class="card column">
+    <div class="card column_3">
       <h2>Alishan</h2>
       <h5>Chiayi</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
