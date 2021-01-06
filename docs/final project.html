@@ -45,11 +45,11 @@ body {
   color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
+/* Create three equal columns that floats next to each other */
+/*  column */
+.column {   
   float: left;
-  width: 300px;
+  width: 33%;
 }
 
 /* Fake image */
@@ -81,13 +81,6 @@ body {
   margin-top: 20px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
@@ -112,43 +105,42 @@ body {
   <a href="#">Hehuan Mountain</a>
   <a href="#">Jade mountain</a>
   <a href="#">Alishan</a>
-  <a href="#" style="float:right">Link</a>
 </div>
 
 <div class="row">
-  <div class="leftcolumn">
-    <div class="card">
+    <div class="card column">
       <h2>Yangmingshan</h2>
       <h5>Taipei</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
-    <div class="card">
+    <div class="card column">
       <h2>Snow mountain</h2>
       <h5>Yilan</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
-    <div class="card">
+    <div class="card column">
       <h2>Xiuguluan Mountain</h2>
       <h5>Hualien</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
-    <div class="card">
+ </div>
+ <div class="row">
+     <div class="card column">
       <h2>Hehuan Mountain</h2>
       <h5>In the border of Hualien and Nantou</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
-    <div class="card">
+    <div class="card column">
       <h2>Jade mountain</h2>
       <h5>Nantou</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
-    <div class="card">
+    <div class="card column">
       <h2>Alishan</h2>
       <h5>Chiayi</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
     </div>
-  </div>
-  </div>
+ </div>
 </div>
 
 </body>
